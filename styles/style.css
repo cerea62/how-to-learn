@@ -104,6 +104,7 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
+  color: #2f80ed;
 }
 
 .two-columns__main-text {
@@ -242,18 +243,19 @@
   padding: 0;
 }
 
-.feynman__subtitle_text {
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 51px;
-  padding: 0;
-}
-
 .feynman__link_text {
   font-size: 36px;
   font-weight: normal;
   line-height: 51px;
   text-decoration: none;
+  color: #2f80ed;
+}
+
+.feynman__subtitle_text {
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  padding: 0;
 }
 
 .kaufman {
