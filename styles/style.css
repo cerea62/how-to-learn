@@ -57,9 +57,10 @@
   left: 64px;
   z-index: 3;
 }
-.header__link { 
-   text-decoration: none;
-   }
+
+.header__link {
+  text-decoration: none;
+}
 
 
 .header__main-illustration_img {
@@ -158,29 +159,21 @@
   /*задай положение заголовка*/
   width: 60%;
   text-align: center;
-
-}
-.section-title__text {
-  /*задай стиль заголовка*/
   font-size: 60px;
   font-weight: 600;
   line-height: 1.15;
   margin: 20px;
+
 }
 
 .section-subtitle {
   /*задай положение подзаголовка*/
   width: 60%;
   text-align: center;
-}
-
-.section-subtitle__text {
-  /*задай стиль подзаголовка*/
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
   margin: 0;
-
 }
 
 .table__heading {
@@ -218,6 +211,10 @@
   width: 648px;
   margin: 0 auto 70px auto;
   text-align: center;
+  font-size: 120px;
+  font-weight: 600;
+  line-height: 1.15;
+  padding: 0;
 }
 
 .feynman__subtitle {
@@ -225,7 +222,10 @@
   display: inline-block;
   margin: auto;
   text-align: center;
-
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  padding: 0;
 }
 
 .feynman__link {
@@ -233,29 +233,11 @@
   position: absolute;
   right: 48px;
   top: 50%;
-
-}
-
-.feynman__title_text {
-  font-size: 120px;
-  font-weight: 600;
-  line-height: 1.15;
-  padding: 0;
-}
-
-.feynman__link_text {
   font-size: 36px;
   font-weight: normal;
   line-height: 51px;
   text-decoration: none;
   color: #2f80ed;
-}
-
-.feynman__subtitle_text {
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 51px;
-  padding: 0;
 }
 
 .kaufman {
@@ -270,7 +252,6 @@
   padding: 90px auto 90px auto;
 }
 
-
 .kaufman__triangle {
   width: 877px;
   height: 877px;
@@ -280,18 +261,15 @@
   position: absolute;
   right: -210px;
   top: 0;
-  z-index: -1;  
-  
+  z-index: -1;
 }
 
 .table_theme_dark {
   margin-bottom: 90px;
 }
 
-
 .table__cell_theme_dark {
   width: 200px;
-
 }
 
 .table__heading_theme_dark {
@@ -302,19 +280,18 @@
   color: #fff;
 }
 
-.section-title__text_theme_dark {
+.section-title_theme_dark {
   color: #fff;
   margin-top: 90px;
 }
 
-.section-subtitle__text_theme_dark {
+.section-subtitle_theme_dark {
   color: #fff;
 }
 
 .footer {
   background-color: #1f1f1f;
   min-height: 350px;
-  padding: 60px auto 40px auto;
   margin: 0;
   position: relative;
 }
@@ -324,10 +301,10 @@
   height: 100%;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto 0 auto;
+  margin: 60px auto 40px auto;
 }
 
-.footer__colums_content_copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
