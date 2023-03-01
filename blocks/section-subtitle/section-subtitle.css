@@ -1,0 +1,10 @@
+.section-subtitle {
+    /*задай положение подзаголовка*/
+    width: 60%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 34px;
+    margin: 0;
+  }
+  

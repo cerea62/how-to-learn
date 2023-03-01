@@ -1,0 +1,7 @@
+.digits {
+    /*задаем положение данных на странице*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }

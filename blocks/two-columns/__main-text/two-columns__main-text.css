@@ -1,0 +1,7 @@
+.two-columns__main-text {
+    /*задаем положение 2 колонки*/
+    width: 80%;
+    min-width: 784px;
+    display: flex;
+    flex-direction: column;
+  }
