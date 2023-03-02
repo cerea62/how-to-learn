@@ -1,6 +1,6 @@
 .section-subtitle {
-    /*задай положение подзаголовка*/
-    width: 60%;
+    max-width: 60%;
+    width: 100%;
     text-align: center;
     font-size: 24px;
     font-weight: normal;

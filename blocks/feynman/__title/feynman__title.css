@@ -1,6 +1,7 @@
 .feynman__title {
     /*задай положение заголовка*/
-    width: 648px;
+    max-width: 648px;
+    width: 100%;
     margin: 0 auto 70px auto;
     text-align: center;
     font-size: 120px;

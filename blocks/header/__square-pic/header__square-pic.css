@@ -5,6 +5,5 @@
     display: flex;
     position: absolute;
     right: 0;
-    top: 64px;
-    animation: rotation 20s linear infinite;
+    top: 64px;  
   }
